@@ -8,7 +8,9 @@ const AlbumDetail = ({ album }) => {
   const {
     thumbnailStyle,
     headerContentStyle,
-    thumbnailContainerStyle } = styles;
+    thumbnailContainerStyle,
+    headerTextStyle
+   } = styles;
   return (
     <Card>
       <CardSection>
@@ -19,7 +21,7 @@ const AlbumDetail = ({ album }) => {
           />
         </View>
         <View style={headerContentStyle}>
-          <Text>{title}</Text>
+          <Text style={headerTextStyle}>{title}</Text>
           <Text>{artist}</Text>
         </View>
       </CardSection>
@@ -32,9 +34,13 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'space-around'
   },
+  headerTextStyle: {
+    fontSize: 18
+  },
   thumbnailStyle: {
     height: 50,
     width: 50
+  },
   thumbnailContainerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
