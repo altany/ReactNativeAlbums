@@ -1,6 +1,4 @@
-# reactnative-albums
-
-## React Native Playground
+# React Native Albums
 
 An app that displays a list of albums, retrieved via an HTTP request from https://rallycoding.herokuapp.com/api/music_albums
 
