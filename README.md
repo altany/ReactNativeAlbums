@@ -5,6 +5,6 @@ An app that displays a list of albums, retrieved via an HTTP request from https:
 <iframe height=600 frameborder=0 src='https://appetize.io/embed/vpb6xmbrv7mnvtz6fx2ymfrd54?device=nexus5&scale=75&orientation=portrait&osVersion=7.0'>
 </iframe>
 
-[Link to online Android emulator](https://appetize.io/embed/vpb6xmbrv7mnvtz6fx2ymfrd54?device=nexus5&scale=75&orientation=portrait&osVersion=7.0)
+You can open the app on the React Native Playground [android simulator](https://appetize.io/embed/vpb6xmbrv7mnvtz6fx2ymfrd54?device=nexus5&scale=75&orientation=portrait&osVersion=7.0)
 
 Work in progress...
