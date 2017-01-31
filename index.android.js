@@ -15,4 +15,4 @@ const App = () => (
 );
 
 // Render it to the device
-AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent('ReactNativeAlbums', () => App);
